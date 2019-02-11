@@ -22,7 +22,7 @@ sudo apt install dmenu -yy
 
 sudo apt install rofi -yy
 
-sudo apt install qt5-style-plugins
+sudo apt install qt5-style-plugins -yy
 
 ###############################################
 #       Make QT apps match GTK apps
