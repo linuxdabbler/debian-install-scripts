@@ -12,5 +12,5 @@ sudo chmod 600 /etc/apt/sources.list
 
 sudo apt update
 
-sudo apt install virtualbox virtualbox-ext-pack
+sudo apt install virtualbox virtualbox-ext-pack -yy
 
