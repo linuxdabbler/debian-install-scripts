@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "$USER     ALL=(ALL:ALL) ALL" >> ~/user.txt
+echo "$USER     ALL=(ALL:ALL) ALL" >> ~/sudouser.txt
