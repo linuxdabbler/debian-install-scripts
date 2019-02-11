@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt install git vim sudo
+apt install sudo
 
 sed -e '/Binary/s/^/#/g' -i /etc/apt/sources.list
 sed -i 's/main/main contrib nonfree/gI' /etc/apt/sources.list
