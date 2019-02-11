@@ -9,7 +9,7 @@ apt update && apt upgrade
 
 chmod 755 /etc/sudoers
 
-cat ~/sudouser.txt >> /etc/sudoers
+cat sudouser.txt >> /etc/sudoers
 
 chmod 600 /etc/sudoers
 
