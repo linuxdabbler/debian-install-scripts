@@ -1,4 +1,4 @@
-#!/bin.sh
+#!/bin/sh
 
 sudo chown $USER /etc/apt/sources.list
 
