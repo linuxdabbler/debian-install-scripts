@@ -12,7 +12,7 @@ rm vivacious*
 
 # VIVACIOUS GTK THEME
 
-wget https://lauchpad.net/~ravefinity-project/+archive/ubunut/ppa/+files/vivacious-colors-gtk-dark_16.04.4~xenial~NoobsLab.com_all.deb
+wget https://launchpad.net/~ravefinity-project/+archive/ubuntu/ppa/+files/vivacious-colors-gtk-dark_16.04.4~xenial~NoobsLab.com_all.deb
 
 sudo dpkg -i vivacious*
 
