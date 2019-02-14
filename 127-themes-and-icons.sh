@@ -26,4 +26,6 @@ cd papirus-icon-theme/
 
 ./install.sh
 
+cd ..
+
 sudo rm -r papirus*
