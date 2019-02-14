@@ -12,6 +12,6 @@ sudo chmod 600 /etc/apt/sources.list
 
 sudo apt update
 
-sudo apt install virtualbox virtualbox-ext-pack -yy
+sudo apt install virtualbox virtualbox-ext-pack virtualbox-dkms virtualbox-guest-additions-iso virtualbox-guest-dkms -yy
 
 sudo usermod -aG vboxusers $USER
