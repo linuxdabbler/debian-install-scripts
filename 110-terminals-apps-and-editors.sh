@@ -6,9 +6,9 @@
 #         Terminals, Terminal Apps, and Text Editors
 #############################################################
 
-sudo apt install rxvt-unicode urxvt-perls -yy
+sudo apt install rxvt-unicode -yy
 
-sudo apt install rager -yy
+sudo apt install ranger -yy
 
 sudo apt install feh -yy
 
