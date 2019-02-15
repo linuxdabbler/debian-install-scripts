@@ -1,9 +1,9 @@
 #!/bin/bash
 
-apt install sudo git -yy
-
 sed -e '/Binary/s/^/#/g' -i /etc/apt/sources.list
 sed -i 's/main/main contrib non-free/gI' /etc/apt/sources.list
+
+apt install sudo git -yy
 
 apt update && apt upgrade
 
