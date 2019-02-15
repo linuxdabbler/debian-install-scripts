@@ -10,14 +10,6 @@ sudo dpkg -i vivacious*
 
 rm vivacious*
 
-# VIVACIOUS GTK THEME
-
-wget https://launchpad.net/~ravefinity-project/+archive/ubuntu/ppa/+files/vivacious-colors-gtk-dark_16.04.4~xenial~NoobsLab.com_all.deb
-
-sudo dpkg -i vivacious*
-
-rm vivacious-colors*
-
 # Install Papirus Icons
 
 git clone https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
