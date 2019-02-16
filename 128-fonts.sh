@@ -1,3 +1,5 @@
+#!/bin/sh
+
 sudo mkdir /usr/share/fonts/truetype/ubuntu-fonts
 
 sudo mkdir /usr/share/fonts/truetype/yosemite-san-francisco
