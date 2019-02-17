@@ -7,7 +7,7 @@ apt install sudo git apt-transport-https -yy
 
 sed -i 's/http/https/gI' /etc/apt/sources.list
 
-sed -i 's/http/https/gI' /etc/apt/sources.list.d
+#sed -i 's/http/https/gI' /etc/apt/sources.list.d
 
 apt update && apt upgrade
 
