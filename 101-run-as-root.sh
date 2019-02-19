@@ -3,11 +3,9 @@
 sed -e '/Binary/s/^/#/g' -i /etc/apt/sources.list
 sed -i 's/main/main contrib non-free/gI' /etc/apt/sources.list
 
-apt install sudo git apt-transport-https -yy
+#apt install sudo git apt-transport-https -yy
 
-sed -i 's/http/https/gI' /etc/apt/sources.list
-
-#sed -i 's/http/https/gI' /etc/apt/sources.list.d
+#sed -i 's/http/https/gI' /etc/apt/sources.list
 
 apt update && apt upgrade
 
