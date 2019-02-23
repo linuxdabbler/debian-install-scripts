@@ -24,6 +24,8 @@ sudo apt install rofi -yy
 
 sudo apt install qt5-style-plugins -yy
 
+sudo apt install virtualbox virtualbox-ext-pack virtualbox-dkms virtualbox-guest-additions-iso virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11 -yy
+
 ###############################################
 #       Make QT apps match GTK apps
 ###############################################
@@ -37,3 +39,5 @@ sudo echo "QT_QPA_PLATFORMTHEME=gtk2" >> /etc/environment
 sudo chown root:root /etc/environment
 
 sudo chmod 600 /etc/environment
+
+sudo usermod -aG vboxusers $USER
