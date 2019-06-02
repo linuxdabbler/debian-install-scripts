@@ -17,9 +17,10 @@ Thank you for visiting my github page
 
 LD
 
-NOTE:     YOU ONLY HAVE TO RUN 101-RUN-AS-ROOT  AS ROOT.... THE REST YOU CAN RUN AS YOUR STANDARD USER
+NOTE: YOU ONLY HAVE TO RUN SCRIPTS 100 AND 101 IF YOU CREATED A ROOT USER DURING INSTALLATION.
 
-after cloning/downloading and unzipping the repository simply run these commands and they will become executable
+NOTE: after cloning/downloading and unzipping the repository simply run these commands
+and they will become executable
 
 
 cd /debian-install scripts
@@ -27,16 +28,3 @@ cd /debian-install scripts
 su
 
 chmod +x *.sh
-
-exit
-
-./100  script
-
-su
-
-./101 script
-
-exit
-
-then use sudo as needed...
-
