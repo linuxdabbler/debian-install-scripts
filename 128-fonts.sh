@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sudo apt install ttf-mscorefonts-installer
+
 sudo mkdir /usr/share/fonts/truetype/ubuntu-fonts
 
 sudo mkdir /usr/share/fonts/truetype/yosemite-san-francisco
