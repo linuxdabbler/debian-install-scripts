@@ -25,6 +25,13 @@ and they will become executable
 
 cd /debian-install scripts
 
+( IF YOU CREATED A ROOT USER )
+
 su
 
 chmod +x *.sh
+
+
+( IF YOU DID NOT CREATE A ROOT USER )
+
+sudo chmod +x *.sh
