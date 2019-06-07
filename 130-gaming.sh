@@ -7,13 +7,16 @@ sudo chown $USER /etc/apt/sources.list.d/
 sudo dpkg --add-architecture i386
 
 # update
-sudo apt update
+sudo apt update -yy
 
 # install dxvk
-sudo apt install dxvk dxvk-wine32-development dxvk-wine64-development
+sudo apt install dxvk dxvk-wine32-development dxvk-wine64-development -yy
 
 # install steam
-sudo apt install steam
+sudo apt install steam -yy
+
+# install game mode
+sudo apt install gamemode -yy
 
 # import wine gpg key
 sudo wget -nc https://dl.winehq.org/wine-builds/winehq.key
@@ -29,7 +32,7 @@ sudo echo "deb https://dl.winehq.org/wine-builds/debian buster main" > /etc/apt/
 sudo apt update
 
 # install wine staging
-sudo apt install --install-recommends winehq-staging
+sudo apt install --install-recommends winehq-staging -yy
 
 #import lutris repository key
 sudo wget https://download.opensuse.org/repositories/home:/strycore/Debian_9.0/Release.key
@@ -46,11 +49,6 @@ touch /etc/apt/sources.list.d/lutris.list
 sudo echo "deb http://download.opensuse.org/repositories/home:/strycore/Debian_9.0/ ./" > /etc/apt/sources.list.d/lutris.list
 
 # update
-sudo apt update
-sudo apt install lutris
-
-sudo apt install gamemode 
-
-
-
+sudo apt update -yy
+sudo apt install lutris -yy
 
