@@ -34,6 +34,9 @@ sudo apt update
 # install wine staging
 sudo apt install --install-recommends winehq-staging -yy
 
+# install wine tricks
+sudo apt install winetricks -yy
+
 #import lutris repository key
 sudo wget https://download.opensuse.org/repositories/home:/strycore/Debian_9.0/Release.key
 
