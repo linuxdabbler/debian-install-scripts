@@ -48,3 +48,9 @@ sudo echo "deb http://download.opensuse.org/repositories/home:/strycore/Debian_9
 # update
 sudo apt update
 sudo apt install lutris
+
+sudo apt install gamemode 
+
+
+
+
