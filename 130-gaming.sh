@@ -71,6 +71,9 @@ sudo apt install --install-recommends winehq-staging -yy
 # install wine tricks
 sudo apt install winetricks -yy
 
+# install Play On Linux
+sudo apt install playonlinux -yy
+
 #import lutris repository key
 sudo wget https://download.opensuse.org/repositories/home:/strycore/Debian_9.0/Release.key
 
