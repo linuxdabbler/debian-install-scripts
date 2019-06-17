@@ -6,11 +6,11 @@ sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf
 
 # VIVACIOUS ICONS
 
-wget https://launchpad.net/~ravefinity-project/+archive/ubuntu/ppa/+files/vivacious-colors_1.4~xenial~NoobsLab.com_all.deb
+#wget https://launchpad.net/~ravefinity-project/+archive/ubuntu/ppa/+files/vivacious-colors_1.4~xenial~NoobsLab.com_all.deb
 
-sudo dpkg -i vivacious*
+#sudo dpkg -i vivacious*
 
-rm vivacious*
+#rm vivacious*
 
 # Install Papirus Icons
 
