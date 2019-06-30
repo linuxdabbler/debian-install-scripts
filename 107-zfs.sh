@@ -2,7 +2,7 @@
 
 
 # Install headers for  your kernel 
-sudo apt install linux-headers-$(uname -r)" linux-image-amd64 -yy
+sudo apt install linux-headers-"$(uname -r)" linux-image-amd64 -yy
 
 # Symlink /bin/rm to /usr/bin/rm (uncomment this if you are using Debian Stretch)
 #sudo ln -s /bin/rm /usr/bin/rm
