@@ -24,7 +24,7 @@ sudo apt install rofi -yy
 
 sudo apt install qt5-style-plugins -yy
 
-sudo apt install virtualbox virtualbox-ext-pack virtualbox-dkms virtualbox-guest-additions-iso virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11 -yy
+#sudo apt install virtualbox virtualbox-ext-pack virtualbox-dkms virtualbox-guest-additions-iso virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11 -yy
 
 ###############################################
 #       Make QT apps match GTK apps
