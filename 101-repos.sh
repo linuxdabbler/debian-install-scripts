@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+
 PS3='Please enter select your repo: '
 options=("stretch-backports" "testing" "unstable" "experimental" "quit")
 select opt in "${options[@]}"
