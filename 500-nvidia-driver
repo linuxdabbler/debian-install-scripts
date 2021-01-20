@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# Make sure you have contrib and non-free repos enabled and updated
-
-sudo apt install nvidia-driver -yy
