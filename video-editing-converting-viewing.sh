@@ -8,6 +8,6 @@ sudo apt install kdenlive -yy
 
 sudo apt install handbrake -yy
 
-sudo apt install vlc -yy
+sudo apt install mpv -yy
 
 sudo apt install audacity -yy
