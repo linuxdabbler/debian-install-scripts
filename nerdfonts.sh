@@ -15,8 +15,8 @@ unzip Inconsolata.zip
 
 mkdir -p ~/.local/share/fonts/nerdfonts/inconsolata
 
-mv *.ttf ~/.local/share/fonts/nerdfonts/inconsolata/
-
 rm Inconsolata.zip
+
+mv Inconsolata* ~/.local/share/fonts/nerdfonts/inconsolata/
 
 fc-cache -f -v
