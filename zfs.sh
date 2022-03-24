@@ -15,7 +15,7 @@ sudo modprobe zfs
 
 # Enable ZFS services
 sudo systemctl enable zfs.target
-sudo systemctl enable zfs-import cache
+sudo systemctl enable zfs-import-cache
 sudo systemctl enable zfs-mount
 sudo systemctl enable zfs-import.target
 sudo systemctl enable zfs-import-scan
